@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## react-native demo
+## react-native Test demo
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 当出现如下错误：
+## 4、当出现如下错误：
 
     ERROR  A non-recoverable condition has triggered.  Watchman needs your help!
     The triggering condition was at timestamp=1453555797: inotify-add-watch(/home/yottanami/src/chikare/node_modules/react-native/node_modules/babel-plugin-syntax-async-functions/node_modules/babel-runtime/node_modules/core-js/library/es6) -> The user limit on the total number of inotify watches was reached; increase the fs.inotify.max_user_watches sysctl
@@ -53,7 +53,7 @@
     
 ------------------------------------------------------------------------------------------------------------------------
 
-## 生成离线的jsbundle文件：(可解决部分红屏报错问题)
+## 5、生成离线的jsbundle文件：(可解决部分红屏报错)
 
 执行：
 
@@ -61,19 +61,19 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## ReactCurrentOwner of undefined
+## 6、ReactCurrentOwner of undefined
 
-运行react-native start：移动端红屏显示 cannot read property ReactCurrentOwner of undefined
+执行 react-native start 时，移动端红屏显示 cannot read property ReactCurrentOwner of undefined
 
-package.json  文件中  -->  dependencies { react版本至少为：16.0.0-alpha.12 }
+项目根目录下文件 package.json  -->  dependencies { react版本至少为：16.0.0-alpha.12 }
 
-重新执行命令：
+替换版本号，重新执行命令：
 
     npm install react --save
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 本地代码调试
+## 7、本地代码调试
 
 1、手机摇一摇 --> Dev Settings --> Debug server host & port for device --> 本机IP:8081
 
