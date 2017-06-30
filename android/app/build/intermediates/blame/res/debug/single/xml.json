@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/djl/zxkj/ABC/XX/reactNativeTest/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/djl/zxkj/ABC/XX/reactNativeTest/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/djl/zxkj/ABC/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/djl/zxkj/ABC/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/res/xml/preferences.xml"
+    }
+]
